@@ -90,9 +90,24 @@ text-align: center;
 }
 
 .btnpart{
-   height:40vh;
+   height:30vh;
    background-color: bisque;
+
 }
 .trybtn{
     margin:auto;
+}
+
+#gripper{
+    margin-top:100px;
+    width:100%;
+}
+
+.launchpad{
+    height:50vh;
+    display:flex;
+}
+
+.triangle1{
+   margin:auto;
 }
