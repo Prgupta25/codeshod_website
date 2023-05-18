@@ -104,10 +104,29 @@ text-align: center;
 }
 
 .launchpad{
-    height:50vh;
+    height:30vh;
     display:flex;
 }
 
 .triangle1{
    margin:auto;
+}
+
+.boxes{
+    height:100vh;
+    background-color: aqua;
+    display:flex;
+    gap:80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.styler{
+    width:414px;
+    height:600px;
+    background: #6200EE;
+    border-radius: 16px;
+    box-shadow: 6px 6px 0px #000000;
+    
+
 }
