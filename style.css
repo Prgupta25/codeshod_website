@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+section{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+section nav{
+    width: 100%;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    background:white;
+    justify-content: space-between;
+}
+
+section nav .logo{
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    color: black;
+    margin: 0 6px;
+    padding:12px 10px;
+    font-size:26px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Inter';
+font-style: normal;
+/* font-weight: 700; */
+font-size: 29px;
+line-height: 24px;
+text-align: center;
+}
+
+section nav ul li:hover{
+    color: #27af5d;
+}
+
+.purplebtn{
+    background: #6200EE;
+box-shadow: 4px 4px 0px #000000;
+border-radius: 6px;
+width: 137px;
+height: 43px;
+color:white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 83px;
+font-size:20px;
+gap: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+}
+
+.main{
+    display:flex;
+    background-color:white;
+    position:relative;
+    height:90vh;
+    gap:100px;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.para{
+    width:600px;
+    height:550px;
+    overflow:hidden;
+    background-color:white;
+    position:relative;
+}
+
+#letsget{
+    margin-top:80px;
+    margin:40px;
+}
+
+#logtxt{
+    position:absolute;
+    top:120px;
+    left:110px;
+}
+
+#msgvct{
+    position:absolute;
+    top:220px;
+    left:100px;
+    display:inline-block;
+}
+#msgvct1{
+    position:absolute;
+    top:220px;
+    left:150px;
+    font-size:20px;
+    font-weight: 400;
+    display:inline-block;
+}
+#callvct{
+    position:absolute;
+    top:280px;
+    left:100px;
+    display:inline-block;
+}
+#callvct1{
+    position:absolute;
+    top:280px;
+    left:150px;
+    font-size:20px;
+    font-weight: 400;
+    display:inline-block;
+}
+.form{
+    width: 541px;
+height: 488px;
+left: 651px;
+top: 187px;
+
+background: #6200EE;
+box-shadow: 6px 6px 0px #000000;
+border-radius: 16px;
+}
+
+.custmfrm{
+/* Customer form */
+
+
+position: static;;
+display:block;
+width: 377px;
+height: 36px;
+margin-top:40px;
+margin-left:50px;
+
+
+font-family: 'Abhaya Libre Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 100.5%;
+/* or 36px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.306412px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+#sideline{
+   top:70px;
+}
+
+.inputbox{
+    position: static;
+width: 449px;
+height: 57px;
+margin-top:30px;
+
+margin-left:40px;
+padding:13px;
+
+
+background: #FFFFFF;
+box-shadow: 6px 6px 0px #000000;
+border-radius: 16px;
+}
+
+#textarea{
+    height:90px
+}
+
+.submitbtn{
+    background: #6200EE;
+box-shadow: 4px 4px 0px #000000;
+border-radius: 6px;
+width: 137px;
+height: 43px;
+color:white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 83px;
+font-size:20px;
+gap: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin-top:50px;
+margin-left:170px;
+}
+
+
+.faq{
+    height: 190vh;
+    background-color: white;
+    position:relative;
+}
+
+.faqtitle{
+    text-align:center;
+    font-size:90px;
+    color:#6200EE;
+    
+}
+
+.curve1{
+    position:absolute;
+    transform:scale(1.2);
+    left:110px;
+    z-index:0;
+}
+
+.accordian{
+    /* position:absolute; */
+    /* position: absolute; */
+    justify-content:center;
+
+    margin:auto;
+    margin-top:30px;
+    width: 1232px;
+    height: 909px;
+    /* left: 24px;
+    top: 1060px; */
+    
+    background: rgba(142, 116, 206, 0.09);
+    box-shadow: 4px 4px 10px rgba(98, 0, 238, 0.1);
+    backdrop-filter: blur(43px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 16px;
+    overflow:hidden;
+}
+
+/* .accordianbox{
+    height:900px;
+    width:800px;
+    background:transparent;
+    margin:auto;
+    margin-top:90px;
+} */
+
+h1{
+    text-align:center;
+}
+.input1 {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.accordion-wrapper {
+    border-radius: 8px;
+    /* overflow: hidden; */
+    /* box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5); */
+    width: 1000px;
+    /* margin-right:50px; */
+    margin:auto;
+    margin-top:80px;
+}
+.accordion1 {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.accordion:last-child{
+    margin-bottom: 30px;
+}
+.accordion-label {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 16px;
+    background: rgba(255, 255, 255, 1);
+    /* box-shadow: 5px 5px 0px 4px #000000; */
+    font-weight: bold;
+    border:3px solid black;
+    cursor: pointer;
+    color:black;
+    font-size: 20px;
+    border-radius:16px;
+    margin-bottom:20px;
+}
+.accordion-label:hover {
+    background: rgb(255, 255, 255);
+}
+.accordion-label::after {
+    content: "\276F";
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.accordion-content {
+    max-height: 0;
+    padding: 0 16px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.accordion-content p{
+    margin: 0;
+    color: rgba(4,57,94,.7);
+    font-size: 18px;
+}
+input:checked + .accordion-label {
+    background: rgb(255, 255, 255);
+    /* box-shadow: 5px 5px 0px #000000; */
+}
+input:checked + .accordion-label::after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+input:checked ~ .accordion-content {
+    max-height: 100vh;
+    padding: 16px;
+}
+ 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
