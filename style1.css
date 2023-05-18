@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+
+section{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+section nav{
+    width: 100%;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    background:white;
+    justify-content: space-between;
+}
+
+section nav .logo{
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    color: black;
+    margin: 0 6px;
+    padding:12px 10px;
+    font-size:26px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Inter';
+font-style: normal;
+/* font-weight: 700; */
+font-size: 29px;
+line-height: 24px;
+text-align: center;
+}
+
+section nav ul li:hover{
+    color: #27af5d;
+}
+
+.purplebtn{
+    background: #6200EE;
+box-shadow: 4px 4px 0px #000000;
+border-radius: 6px;
+width: 137px;
+height: 43px;
+color:white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 83px;
+font-size:20px;
+gap: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+}
+
+
+.vitor{
+    position:absolute;
+    display:block;
+    bottom:130px;
+    
+}
+
+.vectorpart{
+    height:75vh;
+    background-color: antiquewhite;
+}
+
+.btnpart{
+   height:30vh;
+   background-color: bisque;
+
+}
+.trybtn{
+    margin:auto;
+}
+
+#gripper{
+    margin-top:100px;
+    width:100%;
+}
+
+.launchpad{
+    height:50vh;
+    display:flex;
+}
+
+.triangle1{
+   margin:auto;
+}
