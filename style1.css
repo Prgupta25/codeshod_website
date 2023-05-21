@@ -6,6 +6,12 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
 }
@@ -57,6 +63,50 @@ section nav ul li:hover{
     color: #27af5d;
 }
 
+.codeman{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    display:block;
+}
+
+.titler{
+    position:absolute;
+    text-align:center;
+    margin:auto;
+    font-size:70px;
+    margin-top:40px;
+    margin-left:450px;
+    z-index:50;
+    font-weight: 600;
+   
+}
+
+.span{
+    color:white;
+    position:absolute;
+    text-align:center;
+    margin:auto;
+    font-size:70px;
+    margin-top:40px;
+    margin-left:450px;
+    z-index:50;
+    font-weight: 600;
+}
+
+.toptext{
+    position:absolute;
+    width:400px;
+ right:0px;
+    margin-top:80px;
+}
+
+.toptext1{
+    position:absolute;
+    width:400px;
+    bottom:20px;
+    left:30px;
+}
 .purplebtn{
     background: #6200EE;
 box-shadow: 4px 4px 0px #000000;
@@ -85,17 +135,19 @@ text-align: center;
     position:absolute;
     display:block;
     bottom:130px;
+    z-index:20;
     
 }
 
 .vectorpart{
     height:75vh;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
+    z-index:80;
 }
 
 .btnpart{
    height:30vh;
-   background-color: bisque;
+   background-color: rgb(255, 255, 255);
 
 }
 .trybtn{
@@ -109,7 +161,7 @@ text-align: center;
 
 .launchpad{
     height:30vh;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     display:flex;
     justify-content: center;
     text-align:center;
@@ -117,7 +169,8 @@ text-align: center;
 }
 
 .textlaunch{
-    font-size:80px;
+    font-size:70px;
+    font-family: 'Abhaya Libre', serif;
     
 }
 
@@ -168,7 +221,7 @@ text-align: center;
     height:100vh;
     z-index:1;
     position:relative;
-    background-color: rgb(155, 132, 132);
+    background-color: rgb(255, 255, 255);
 }
 
 .redbox{
@@ -235,6 +288,8 @@ box-shadow: 10px 10px 5px 0px rgba(98,0,238,0.31);
     color:#6200EE;
     text-align: center;
     margin-top:50px;
+
+    font-family: 'Abhaya Libre', serif;
 }
 
 .translucentext1{
@@ -242,6 +297,7 @@ box-shadow: 10px 10px 5px 0px rgba(98,0,238,0.31);
     color:#6200EE;
     text-align: center;
     margin-top:20px;
+    font-family: 'Abhaya Libre', serif;
 }
 
 .circleflex{
@@ -280,7 +336,7 @@ background-color: transparent;
 
 .processflow{
     height:180vh;
-    background: skyblue;
+    background: rgb(248, 248, 248);
     position: relative;
     overflow: hidden;
 }
@@ -291,9 +347,10 @@ background-color: transparent;
     z-index:17;
    display: flex;
    justify-content: center;
-    top:100px;
+    top:80px;
     width:100%;
-    font-size: 80px;
+    font-size: 70px;
+    line-height: 100%;
 }
 
 .processbox{
@@ -412,7 +469,123 @@ border-radius: 16px;
     opacity:1;
 }
 
+.flexer{
+    height:120vh;
+    width:900px;
+    margin:auto;
+    background-color: transparent ;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}    
 
 .gridboxes{
-    height:100vh;
+    height:90vh;
+    width:600px;
+    display:grid;
+  background-color: transparent;
+    grid-template-columns: repeat(2,1fr);
+    /* column-gap: 20px; */
+    row-gap: 20px;
+    /* margin:auto;     */
+    position:relative;
+}
+
+.boxer1{
+    
+    width: 263px;
+    height:363px;
+
+
+background: #ad0000;
+box-shadow: 6px 6px 0px #000000;
+border-radius: 36px;
+}
+
+.boxer2{
+    
+    width: 263px;
+    height:263px;
+
+background: #ad0000;
+box-shadow: 6px 6px 0px #000000;
+border-radius: 36px;
+}
+.boxer3{
+    
+    width: 263px;
+    height:263px;
+
+
+background: #c00c0c;
+box-shadow: 6px 6px 0px #000000;
+border-radius: 36px;
+}
+
+.boxer4{
+    width: 263px;
+    height:363px;
+    margin-top:-100px;
+    background: #b80e0e;
+    box-shadow: 6px 6px 0px #000000;
+    border-radius: 36px;
+    }
+.above{
+    height:200px;
+    width:200px;
+    position:absolute;
+    background:pink;
+    box-shadow: 6px 6px 0px #000000;
+    border-radius: 36px;
+}
+
+.pikachu2{
+    position:absolute;
+    z-index:16;
+    
+}
+
+.carousaltailwind{
+    height:120vh;
+    padding-top:140px;
+    background-color: #0e7f91;
+    position: relative;
+}
+
+.pikachu1{
+    overflow-x:hidden;
+    z-index:16 ;
+    position:absolute;
+    top:20px;
+  
+  }
+
+  .newbox{
+    background: #ffffff;
+    height:400px;
+  }
+
+  .left-0 {
+    left: -80px;
+}
+
+.right-0 {
+    right: -80px;
+}
+
+.bottom-5 {
+    bottom: -2.75rem;
+}
+
+.white {
+    position: absolute;
+    height: 316px;
+    width: 666px;
+    background-color: white;
+    margin: auto;
+    z-index: 19;
+    top: 140px;
+    left: 416px;
+    box-shadow: 6px 6px 0px #000000;
+border-radius: 36px;
 }
