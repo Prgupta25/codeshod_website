@@ -138,9 +138,14 @@ text-align: center;
     z-index:20;
     
 }
-
+/* .main{
+    height:80vh;
+    position:relative;
+    width:90vw;
+} */
 .vectorpart{
     height:75vh;
+    
     background-color: rgb(255, 255, 255);
     z-index:80;
 }
@@ -197,9 +202,64 @@ text-align: center;
     background: #6200EE;
     border-radius: 16px;
     box-shadow: 6px 6px 0px #000000;
+  
 
 }
 
+.stylertxt{
+    width: 326px;
+   height: 288px;
+   /* left: 90px;
+   top: 1171px; */
+   margin-left:20px;
+   margin-top:30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 52px;
+
+color: #FFFFFF;
+}
+.stylertxt1{
+    width: 326px;
+   height: 288px;
+   position:absolute;
+   margin-left:50px;
+   /* margin-top:30px; */
+   bottom:-60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 52px;
+color: #6200ee;
+}
+
+.stylertxt2{
+    width: 326px;
+   height: 288px;
+   position:absolute;
+   margin-left:50px;
+   margin-top:30px; 
+   /* bottom:-60px; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 52px;
+color: #6200ee;
+}
+.bottombtn{
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    background-color: white;
+    color:#6200ee;
+}
 .styler1{
     width:414px;
     height:600px;
@@ -306,20 +366,22 @@ box-shadow: 10px 10px 5px 0px rgba(98,0,238,0.31);
     margin:auto;
     margin-top:40px;
     z-index:15;
-  display:flex;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
   justify-content: center;
   align-items: center;
-  gap:40px;
+  
   /* row-gap:10px; */
-  flex-basis: 33.333%;
-  flex-wrap: wrap;
-background-color: transparent;
+ 
 }
 .circlules{
-    height:70px;
-    width:70px;
+    height:80px;
+    width:80px;
     border-radius: 50px;
     background: #6200EE;
+  
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -493,50 +555,101 @@ border-radius: 16px;
 
 .boxer1{
     
-    width: 263px;
+    width: 363px;
     height:363px;
+    margin-left:-90px;
 
 
-background: #ad0000;
+background: #ffffff;
 box-shadow: 6px 6px 0px #000000;
 border-radius: 36px;
+border:1px solid black;
 }
 
+.photos1{
+width: 306px;
+height: 267px;
+margin:25px auto;
+background:url("Rectangle 1336.png");
+border-radius: 18px;
+}
+
+.photos4{
+    width: 306px;
+    height: 267px;
+    margin:25px auto;
+    background:url("Rectangle 1339.png");
+    background-size: cover;
+    border-radius: 18px;
+    }
 .boxer2{
     
-    width: 263px;
+    width: 363px;
     height:263px;
+    margin-left:20px;
 
-background: #ad0000;
+background: #ffffff;
 box-shadow: 6px 6px 0px #000000;
 border-radius: 36px;
+border:1px solid black;
 }
+
+
+.photos2{
+    width: 306px;
+    height: 167px;
+    margin:25px auto;
+    background:url("Rectangle 1337.png");
+    background-size: cover;
+    border-radius: 18px;
+    }
+
+    .photos3{
+        width: 306px;
+        height: 167px;
+        margin:25px auto;
+        background:url("Rectangle 1338.png");
+        background-size: cover;
+        border-radius: 18px;
+        }
+
+.phototxt{
+    text-align:center; 
+    font-size:1.9rem;
+    font-weight:600;
+ 
+}
+    
 .boxer3{
     
-    width: 263px;
+    width: 343px;
     height:263px;
+    margin-left:-90px;
+    border:1px solid black;
 
 
-background: #c00c0c;
+background: #ffffff;
 box-shadow: 6px 6px 0px #000000;
 border-radius: 36px;
 }
 
 .boxer4{
-    width: 263px;
+    width: 383px;
     height:363px;
     margin-top:-100px;
-    background: #b80e0e;
+    background: #ffffff;
     box-shadow: 6px 6px 0px #000000;
     border-radius: 36px;
+    border:1px solid black;
     }
 .above{
-    height:200px;
-    width:200px;
+    height:180px;
+    width:180px;
     position:absolute;
-    background:pink;
+    background:rgb(255, 255, 255);
     box-shadow: 6px 6px 0px #000000;
     border-radius: 36px;
+    border:1px solid black;
 }
 
 .pikachu2{
@@ -561,9 +674,29 @@ border-radius: 36px;
   }
 
   .newbox{
-    background: #ffffff;
+    background: #ab1d1d;
     height:400px;
+    padding:50px;
+    position:relative;
+    
   }
+
+.profile{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-bottom:40px;
+    
+    background:white;
+   
+}
+
+.name{
+    font-size:40px;
+}
+.work{
+    font-size:25px;
+}
 
   .left-0 {
     left: -80px;
@@ -589,3 +722,19 @@ border-radius: 36px;
     box-shadow: 6px 6px 0px #000000;
 border-radius: 36px;
 }
+
+
+.carobox{
+    box-shadow: 6px 6px 0px #000000;
+border-radius: 36px;
+z-index:90;
+}
+
+.caroindicator{
+    padding:5px 10px;
+    border-radius:16px;
+    background:rgb(255, 255, 255);
+}
+
+
+
