@@ -138,11 +138,8 @@ text-align: center;
     z-index:20;
     
 }
-/* .main{
-    height:80vh;
-    position:relative;
-    width:90vw;
-} */
+
+
 .vectorpart{
     height:75vh;
     
@@ -160,7 +157,7 @@ text-align: center;
 }
 
 #gripper{
-    margin-top:100px;
+    margin-top:-50px;
     width:100%;
 }
 
@@ -661,7 +658,7 @@ border-radius: 36px;
 .carousaltailwind{
     height:120vh;
     padding-top:140px;
-    background-color: #0e7f91;
+    background-color: #ffffff;
     position: relative;
 }
 
@@ -719,6 +716,7 @@ border-radius: 36px;
     z-index: 19;
     top: 140px;
     left: 416px;
+   
     box-shadow: 6px 6px 0px #000000;
 border-radius: 36px;
 }
@@ -728,6 +726,7 @@ border-radius: 36px;
     box-shadow: 6px 6px 0px #000000;
 border-radius: 36px;
 z-index:90;
+border:1px solid black;
 }
 
 .caroindicator{
