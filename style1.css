@@ -18,13 +18,14 @@ a{
 
 
 
-section{
+header{
     width: 100%;
     height: 10vh;
     background-color: white;
+    
 }
 
-section nav{
+header nav{
     width: 100%;
     padding: 0.625rem 5rem;
     display: flex;
@@ -33,17 +34,17 @@ section nav{
     justify-content: space-between;
 }
 
-section nav .logo{
+header nav .logo{
     color: black;
     font-size: 2.188rem;
     cursor: pointer;
 }
 
-section nav ul{
+header nav ul{
     list-style: none;
 }
 
-section nav ul li{
+header nav ul li{
     display: inline-block;
     color: black;
     margin: 0 6px;
@@ -59,7 +60,7 @@ line-height: 1.5rem;
 text-align: center;
 }
 
-section nav ul li:hover{
+header nav ul li:hover{
     color: #6200ee;
 }
 
@@ -108,7 +109,7 @@ section nav ul li:hover{
     width:25rem;
     bottom:1.25rem;
     font-size: 17px;
-    left:5.625rem;
+    left:9.375rem;
 }
 .purplebtn{
     background: #6200EE;
@@ -844,10 +845,16 @@ border:1px solid black;
     text-align:center;
     margin:auto;
     font-size:70px;
-    margin-top:28px;
+    margin-top:98px;
     margin-left:500px;
     z-index:50;
     font-weight: 600;
+    }
+
+
+    .vitor{
+        position:absolute;
+        top:0px;
     }
 
     .codeman{
@@ -901,6 +908,10 @@ border:1px solid black;
     font-size: 39px;
     line-height: 52px;
     color: #6200ee;
+    }
+
+    .toptext1{
+        left:150px;
     }
     
     .stylertxt2{
