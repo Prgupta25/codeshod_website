@@ -44,7 +44,7 @@ header nav {
     padding: 0.625rem 5rem;
     display: flex;
     align-items: center;
-    background: rgb(38, 189, 21);
+    background: rgb(255, 255, 255);
     justify-content: space-between;
 }
 
@@ -79,16 +79,19 @@ header nav ul li:hover {
 
 /* container1 css   */
 
-
+svg {
+    border: 1px solid red;
+}
 
 .container1 {
     max-width: 1536px;
-    max-height: 746px;
+
+    width: 100%;
     min-height: 746px;
-    height: 100vh;
-    position: relative;
+    height: 1100px;
+    /* position: relative; */
     margin: auto;
-    background-color: rgb(210, 35, 134);
+    background-color: rgb(255, 255, 255);
     /* position:relative; */
 }
 
@@ -116,19 +119,365 @@ header nav ul li:hover {
 
 }
 
-.vector1{
-    position:absolute;
-    top:0;
+.vector1 {
+    position: absolute;
+    top: 0;
 }
 
-.vector2{
-    position:absolute;
-    top:150px;
-    right:0px;
+
+
+.titan {
+    min-width: 100%;
+    height: 460px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+
 }
 
-.titan{
-    height:400px;
-    background-color:pink;
+.vector2 {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+
+}
+
+
+.titler {
+    position: absolute;
+    text-align: center;
+    /* left: 26%; */
+    top: 14%;
+    margin: auto;
+    font-size: 4.375rem;
+    /* margin-top:6.25rem;
+    margin-left:34.25rem; */
+    z-index: 2;
+    font-weight: 600;
+
+}
+
+.titantext1 {
+
+    text-align: center;
+    /* left: 16%;
+    top: 54%; */
+    margin: 20px auto;
+    font-size: 24px;
+    /* margin-top:6.25rem;
+    margin-left:34.25rem; */
+    z-index: 2;
+    font-weight: 600;
+}
+
+.cheeta {
+    color: #6200ee;
+}
+
+.span {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    font-size: 4.375rem;
+    margin-top: 2.5rem;
+    margin-left: 28.125rem;
+    z-index: 50;
+    font-weight: 600;
+}
+
+.bubbles {
+    position: absolute;
+    width: 800px;
+
+}
+
+.smalltext {
+    height: 90px;
+}
+
+
+
+
+.pekka1 {
+    position: absolute;
+}
+
+.pekka2 {
+    position: absolute;
+    right: 0;
+}
+
+
+.glass {
+    height: 840px;
+    min-height: 840px;
+    max-width: 1536px;
+
+    width: 100%;
+    margin: auto;
+    background: white;
+    position: relative;
+
+}
+
+
+
+
+
+.translucent {
+    height: 700px;
+    min-height: 700px;
+    width: 90%;
+    backdrop-filter: blur(43px);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(98, 0, 238, 0.31);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(98, 0, 238, 0.31);
+    box-shadow: 10px 10px 5px 0px rgba(98, 0, 238, 0.31);
+    position: absolute;
+    margin-left: 5%;
+    border: 1px solid purple;
+    /* margin-left: 4rem; */
+
+    border-radius: 26px;
+    margin-top: 4rem;
+    z-index: 13;
+
+}
+
+.translucentext {
+    font-size: 2.875rem;
+    color: #6200EE;
+    text-align: center;
+    margin-top: 3.125rem;
+
+    font-family: 'Abhaya Libre', serif;
+}
+
+.translucentext1 {
+    font-size: 3.5rem;
+    color: #6200EE;
+    text-align: center;
+    margin-top: 0rem;
+    font-family: 'Abhaya Libre', serif;
+}
+
+
+.glassbtn {
+    margin-top: 6.25rem;
+    width: 290px;
+    height: 70px;
+    line-height: 30px;
+    flex-direction: row;
+}
+
+
+.glasstext {
+    margin: 50px auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.carousal {
+    height: 600px;
+    background-color: red;
+}
+
+
+.pikachu2 {
+    position: absolute;
+    z-index: 16;
+
+}
+
+
+.processtext13 {
+    text-align: center;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    padding-top: 0px;
+    width: 100%;
+    font-size: 70px;
+    line-height: 100%;
+}
+
+
+
+b {
+    color: #6200ee;
+}
+
+.processtext {
+    text-align: center;
+    position: absolute;
+    z-index: 97;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    top: 40px;
+    width: 100%;
+    font-size: 70px;
+    line-height: 100%;
+}
+
+.carousaltailwind {
+    height: 900px;
+    max-width: 1536px;
+
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.russia {
+    margin-top: 20%;
+}
+
+.pikachu1 {
+    /* display: none; */
+    overflow-x: hidden;
+    z-index: 16;
+    position: absolute;
+    top: 120px;
+
+}
+
+.newbox {
+    background: #ffffff;
+    height: 400px;
+    padding: 50px;
+    position: relative;
+
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+
+    background: #6200ee;
+
+}
+
+.name {
+    font-size: 40px;
+}
+
+.work {
+    font-size: 25px;
+}
+
+.left-0 {
+    left: -80px;
+}
+
+.right-0 {
+    right: -80px;
+}
+
+.bottom-5 {
+    bottom: -2.75rem;
+}
+
+.white {
+    position: absolute;
+    height: 316px;
+    width: 666px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    z-index: 19;
+    top: 140px;
+    left: 416px;
+
+    box-shadow: 6px 6px 0px #000000;
+    border-radius: 36px;
+}
+
+
+.carobox {
+    box-shadow: 6px 6px 0px #000000;
+    border-radius: 36px;
+    z-index: 90;
+    border: 1px solid black;
+}
+
+.caroindicator {
+    padding: 5px 10px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+
+.camera {
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    height: 400px;
+}
+
+.photobubble {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+
+@media (max-width:1205px) {
+
+    .titler {
+        font-size: 3.9rem;
+    }
+
+    .titantext1 {
+        font-size: 15px;
+    }
+
+    .titan {
+        height: 420px;
+    }
+
+    .container1 {
+        min-height: 800px;
+        height: 800px;
+    }
+
+    .bubbles {
+        width: 500px;
+    }
+    .photobubble{
+        height:380px;
+
+    }
+
+}
+
+@media (max-width:1128px) {
+
+    .titler {
+        font-size: 3rem;
+    }
+
+    .titan {
+        height: 300px;
+    }
+
+}
+
+@media (max-width:980px) {
+
+    .titler {
+        font-size: 2.5rem;
+    }
 
 }
