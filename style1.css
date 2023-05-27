@@ -36,6 +36,7 @@ header {
     height: 10px;
     min-height: 60px;
     display: block;
+    z-index:90;
 
 }
 
@@ -44,6 +45,7 @@ header nav {
     padding: 0.625rem 5rem;
     display: flex;
     align-items: center;
+    z-index:190;
     background: rgb(255, 255, 255);
     justify-content: space-between;
 }
@@ -52,10 +54,12 @@ header nav .logo {
     color: black;
     font-size: 2.188rem;
     cursor: pointer;
+    z-index:190;
 }
 
 header nav ul {
     list-style: none;
+    z-index:190;
 }
 
 header nav ul li {
@@ -70,6 +74,7 @@ header nav ul li {
     font-size: 1.513rem;
     line-height: 1.5rem;
     text-align: center;
+    z-index:190;
 }
 
 header nav ul li:hover {
@@ -113,8 +118,8 @@ header nav ul li:hover {
 
 .codeman {
     position: absolute;
-    right: 15%;
-    bottom: 15%;
+    right: 12%;
+    bottom: 12%;
     width: 20%;
     height: 50%;
     display: block;
